@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  border: 1px solid blue;
+  background-color: lightgrey;
+}
+.overlaycontent{
+  display: block-flex;
+  justify-content: space around;
+  padding: 15px 30px;
+  align: center;
+  border: 5px solid yellow;
+  width: 150px;
+  height: 190px;
+  background-color: red;
+  
+}
+.note{
+  font-size: 20px;
+  font-family:  Arial;
+  font-weight: 600;
+  text-indent: 30px;
+}
+#overlay{
+  position: fixed;
+  top: 370px;
+  right: 10px;
+}
